@@ -1,0 +1,14 @@
+.button{
+    display: inline-block;
+    background-color: $mainRed;
+    padding: 1.3rem 3.2rem;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: inherit;
+    margin-top: 2rem;
+    &:hover{
+        background-color: $darkRed;
+    }
+}
